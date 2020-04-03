@@ -9,6 +9,18 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+!.Todo.Domain/bin/*
+!.Todo.Domain/obj/*
+
+!.Todo.Domain.api/bin/*
+!.Todo.Domain.Api/obj/*
+
+!.Todo.Domain.Infra/bin/*
+!.Todo.Domain.Infra/obj/*
+
+!.Todo.Domain.Tests/bin/*
+!.Todo.Domain.Tests/obj/*
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
