@@ -1,0 +1,8 @@
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.deps.json
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.dll
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\bin\Debug\netstandard2.0\Todo.Domain.Infra.pdb
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.csprojAssemblyReference.cache
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.AssemblyInfoInputs.cache
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.AssemblyInfo.cs
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.dll
+H:\Estudos\Balta.IO\ToDoApp-API-ASPNETCore-CQRS-EFCore\Todo.Domain.Infra\obj\Debug\netstandard2.0\Todo.Domain.Infra.pdb
