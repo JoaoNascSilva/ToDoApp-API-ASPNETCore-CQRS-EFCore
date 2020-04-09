@@ -3,7 +3,7 @@ using Todo.Domain.Commands;
 using Todo.Domain.Commands.Contracts;
 using Todo.Domain.Entities;
 using Todo.Domain.Handlers.Contracts;
-using Todo.Domain.Repositories.cs;
+using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers
 {
@@ -37,7 +37,7 @@ namespace Todo.Domain.Handlers
         public ICommandResult Handler(UpdateTodoCommand command)
         {
             command.Validate();
-            if (command.Valid)
+            if (command.Invalid)
                 return new GenericCommandResult(false, "Ops, parece que sua tarefa está errada.", command.Notifications);
 
             // Recupera o TodoItem (Rehidratação)
@@ -56,7 +56,7 @@ namespace Todo.Domain.Handlers
         public ICommandResult Handler(MarkTodoAsDoneCommand command)
         {
             command.Validate();
-            if (command.Valid)
+            if (command.Invalid)
                 return new GenericCommandResult(false, "Ops, parece que sua tarefa está errada.", command.Notifications);
 
             // Recupera o TodoItem (Rehidratação)
@@ -75,7 +75,7 @@ namespace Todo.Domain.Handlers
         public ICommandResult Handler(MarkTodoAsUndoneCommand command)
         {
             command.Validate();
-            if (command.Valid)
+            if (command.Invalid)
                 return new GenericCommandResult(false, "Ops, parece que sua tarefa está errada.", command.Notifications);
 
             // Recupera o TodoItem (Rehidratação)
